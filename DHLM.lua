@@ -43,7 +43,7 @@ local dt = T(index)
 		hlm.month = dt.month
 		hlm.high = H(index)
 		hlm.low = L(index)
-	else
+	 else
 		hlm.high = math_max(hlm.high,H(index))
 		hlm.low = math_min(hlm.low,L(index))
 		hlm.median = (hlm.high + hlm.low)/2
